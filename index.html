@@ -500,11 +500,11 @@ pre {
         <div class="flex-row">
             <p>
 <ul>
-    <li>We introduce <strong>Wonderful Team</strong>, a multi-agent visual LLM (VLLM) framework for solving robotics problems in the zero-shot regime.</li>
-    <li>With careful engineering, we can prompt a single off-the-shelf VLLM to handle all aspects of a robotics task, from high-level planning to low-level location-extraction and action-execution.</li>
-    <li><strong>Wonderful Team</strong> builds on recent advances in multi-agent LLMs to partition tasks across an agent hierarchy, making it self-corrective and able to effectively solve even long-horizon tasks. The ability of agent teams to self-correct is striking, raising success rates in many environments by over 90%.</li>
-    <li>Extensive experiments on both real and simulated environments demonstrate the system's capability to handle a variety of robotic tasks, including manipulation, visual goal-reaching, and visual reasoning, all in a zero-shot manner.</li>
-    <li>These results underscore a key point: vision-language models have progressed rapidly in the past year, and should strongly be considered as a backbone for robotics problems going forward.</li>
+<li>We introduce Wonderful Team, a multi-agent Vision Large Language Model (VLLM) framework for executing high-level physical task planning in a zero-shot regime.</li>
+<li>Our approach integrates VLLMs throughout the entire planning process, creating a unified system for perception, control, and planning. Given an image of the robot's surroundings and a task description, the system can generate appropriate action sequences for novel environments.</li>
+<li>Wonderful Team utilizes a multi-agent architecture to break down complex tasks, enabling effective handling of longer sequences while maintaining reliability through self-correction mechanisms.</li>
+<li>In experimental evaluations across real and simulated environments, our system shows significant improvements over existing methods: 40% higher success rates on VimaBench compared to NLaP, 30% improvement over Trajectory Generators on standard tasks, and 70% improvement on semantic reasoning tasks.</li>
+<li>These results demonstrate the potential of VLLMs as a viable option for certain high-level robotic planning problems, reflecting their rapid advancement over the past year.</li>
 </ul>
 
         </div>
